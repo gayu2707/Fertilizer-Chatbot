@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Farming Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>🌱 FarmBot</h2>
+        <button id="newChatBtn">➕ New Chat</button>
+        <input type="text" id="searchChat" placeholder="🔍 Search chat">
+        <h3>Chat History</h3>
+        <ul id="chatHistory"></ul>
+        <button id="reportBtn">⚠️ Report Issue</button>
+    </div>
+
+    <div class="chat-area">
+        <div class="chat-header">Farming Assistant 🤖</div>
+        <div class="chat-box" id="chatBox"></div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+</div>
+
+<div id="issueModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <h2>Report an Issue</h2>
+        <textarea id="issueText" placeholder="Describe your issue..."></textarea>
+        <button id="submitIssue">Submit</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
