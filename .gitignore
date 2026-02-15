@@ -1,0 +1,12 @@
+# Build folders
+build/
+dist/
+
+# Compiled files
+*.class
+
+# NetBeans
+nbproject/private/
+
+# Logs
+*.log
